@@ -8,7 +8,7 @@ from llama_index.core import Settings
 from llama_index.llms.groq import Groq # type: ignore
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding # type: ignore
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
-# Seting Groq API key in the environment variable
+
 os.environ["GROQ_API_KEY"] = "MyApi"  
 
 
@@ -48,7 +48,7 @@ def chatbot(query_engine, prompt):
 def main():
     """Main function to run the chatbot."""
     # Specify the path to your context files using a raw string
-    context_files = [r"C:\Users\HP\Downloads\Tasks Report.txt"]  # Use raw string for the file path
+    context_files = [r"C:\Users Report.txt"]  # Use raw string for the file path
     
     # Load the context data from the files
     context_data = load_context_data(context_files)
