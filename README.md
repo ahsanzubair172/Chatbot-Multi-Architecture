@@ -20,17 +20,15 @@ A powerful, responsive chatbot framework — powered by Groq API — supporting 
 ## 🏗️ Architecture Overview
 
 ```
-Groq Chatbot Framework
+Groq Chatbot 
 │
 ├— FastAPI Implementation (apigroq.py)
 ├— Command Line Chatbot (groq.py)
 ├— Context-Aware Chatbot (bot.py)
 ├— Memory-Enabled Chatbot (memory.py)
 ├— Vector Store Index Chatbot (chatbot.py)
-├— LangChain Integration (ext.py)
 ├— Confidence Chat Engine (condence.py)
-├— Automatic Restart Utility (watch_and_run.py)
-└— Requirements Management (requirements.txt)
+├— Requirements Management (requirements.txt)
 ```
 
 ## 🎮 Getting Started
