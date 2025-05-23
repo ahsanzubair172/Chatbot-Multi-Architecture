@@ -4,7 +4,7 @@ from typing import List
 from llama_index.core.readers import SimpleDirectoryReader
 from llama_index.core.indices.vector_store.base import VectorStoreIndex
 from llama_index.core import ServiceContext
-# from llama_index import VectorStoreIndex, ServiceContext 
+
 from llama_index.llms.groq import Groq # type: ignore
 from llama_index.embeddings import GroqEmbedding  
 
@@ -44,7 +44,7 @@ def chatbot(query_engine, prompt):
 def main():
     """Main function to run the chatbot."""
     # Specify the path to your context files
-    context_files = [r"C:\Users\HP\Downloads\Tasks Report.txt"]  #  context file
+    context_files = [r"C:\Users Report.txt"]  #  context file
     
     # Load the context data from the files
     context_data = load_context_data(context_files)
